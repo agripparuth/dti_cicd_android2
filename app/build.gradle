@@ -13,7 +13,6 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
     signingConfigs {
         release{
             if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')){
